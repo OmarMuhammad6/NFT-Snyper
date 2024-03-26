@@ -1,13 +1,13 @@
-import Header from "../../components/Header";
-import ClientPage from "../../pages";
-import Footer from "../../components/Footer";
+import ClientPage from "../../pages/client";
+import ClientHeader from "../../components/Header/client";
+import ClientFooter from "../../components/Footer/client";
 
 const ClientLayout = () => {
     return (
         <>
-            <Header />
+            <ClientHeader />
             <ClientPage />
-            <Footer />
+            <ClientFooter />
         </>
     );
 };
